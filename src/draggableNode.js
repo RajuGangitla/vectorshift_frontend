@@ -17,25 +17,5 @@ export const DraggableNode = ({ type, label, Icon }) => {
       <Icon className="mb-2 h-8 w-8" />
       <span className="text-sm font-medium">{label}</span>
     </div>
-    // <div
-    //   // className={type}
-    //   onDragStart={(event) => onDragStart(event, type)}
-    //   onDragEnd={(event) => (event.target.style.cursor = 'grab')}
-    //   className={`cursor-grab min-w-[80px] h-[60px] flex items-center justify-center rounded-lg bg-gray-800 text-white shadow-md ${type}`}
-    //   // style={{
-    //   //   cursor: 'grab',
-    //   //   minWidth: '80px',
-    //   //   height: '60px',
-    //   //   display: 'flex',
-    //   //   alignItems: 'center',
-    //   //   borderRadius: '8px',
-    //   //   backgroundColor: '#1C2536',
-    //   //   justifyContent: 'center',
-    //   //   flexDirection: 'column'
-    //   // }}
-    //   draggable
-    // >
-    //   <span >{label}</span>
-    // </div>
   );
 };

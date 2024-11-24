@@ -5,7 +5,7 @@ import { SubmitButton } from './submit';
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
-      <div className="rounded-lg bg-white p-6 shadow-lg">
+      <div className="relative rounded-lg bg-white p-6 shadow-lg">
         <PipelineToolbar />
         <PipelineUI />
         <SubmitButton />

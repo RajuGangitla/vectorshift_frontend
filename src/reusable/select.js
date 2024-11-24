@@ -26,8 +26,5 @@ export default function Select({ data, options }) {
             </select>
             <ChevronDown className="pointer-events-none absolute right-2 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
         </div>
-        // <select value={inputType} onChange={handleTypeChange}>
-        //     {options?.map((option) => (<option value={option.value}>{option.label}</option>))}
-        // </select>
     )
 }
